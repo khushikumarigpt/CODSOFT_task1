@@ -1,0 +1,168 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* About */
+#about {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#about img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #34495e;
+  margin-bottom: 15px;
+}
+
+/* Skills */
+#skills {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+#skills li {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* Projects */
+#projects {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.project h3 {
+  margin: 10px 0 5px;
+  color: #34495e;
+  font-size: 1.4em;
+}
+
+.project p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Resume */
+#resume {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#resume a {
+  background-color: #27ae60;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+#resume a:hover {
+  background-color: #1e8449;
+}
+
+/* Contact */
+#contact {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.1em;
+}
+
+#contact p {
+  margin: 8px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #ddd;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #555;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #skills ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project img {
+    width: 90%;
+  }
+}
